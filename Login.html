@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<title>Basic Login</title>
+<body >
+<link rel="stylesheet" href="styles.css">
+<img src = "https://png.pngtree.com/svg/20161229/_username_login_1172579.png" width="180" height="180"/>
+<script  language=JavaScript>
+function check() {
+        if(document.form.username.value=='admin' && document.form.password.value=='12345') {
+            alert("Welcome");
+        }else{
+            alert("Password or Username incorret!!!");
+        }
+}
+</script>
+<h1>MEMBER LOGIN</h1>
+<form name=form >
+    <input type = "text" name = "username" placeholder="Username"><br>
+    <input type = "password" name = "password" placeholder="Password"><br>
+    <input onclick= check() type="button" value=Login>
+</form>
+</body>
+</html>
+
+

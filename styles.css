@@ -1,0 +1,67 @@
+h1{
+    color : #3cace4;
+    text-align: center;
+    font-size: 100%;
+    font-family: "Arial";
+}
+body{
+    background-color: lightgray;
+}
+img{
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+form {
+    display: block;
+    text-align:center;
+    font-family: "Arial";
+    padding: 15px;
+    color: #3cace4;
+}
+input[type=text] {
+    width: 25%;
+    box-sizing: border-box;
+    border: 8px solid #ccc;
+    border-radius: 1px;
+    font-size: 22.5px;
+    background-color: white;
+    background-image: url("https://png.pngtree.com/svg/20170509/username_1047855.png");
+    background-size: 40px 40px;
+    background-position: 1px 8px;
+    background-repeat: no-repeat;
+    padding: 12px 27px 27px 45px;
+    font-family: "Arial Black";
+    color: #7d99a5;
+}
+input[type=password]{
+    idth: 25%;
+    box-sizing: border-box;
+    border: 8px solid #ccc;
+    border-radius: 1px;
+    font-size: 20.7px;
+    background-color: white;
+    background-image: url("https://image.shutterstock.com/image-vector/lock-check-simple-icon-private-260nw-1049121809.jpg");
+    background-size: 40px 40px;
+    background-position: 1px 8px;
+    background-repeat: no-repeat;
+    padding: 12px 27px 27px 45px;
+    font-family: "Arial Black";
+    color: #7d99a5;
+}
+input[type=button]{
+    font-size:20.7px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#3cace4;
+    border:0px;
+    width:180px;
+    height:50px;
+}
+
+
+
+
+
+
